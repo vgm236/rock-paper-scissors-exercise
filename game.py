@@ -21,7 +21,7 @@ print(" ")
 
 options = ["rock", "paper", "scissors"]
 
-if user_choice not in options
+if user_choice not in options:
     print("Invalid selection. Please, try again")
     exit() 
 
@@ -41,7 +41,29 @@ print("Computer chose:", computer_choice)
 print(" ")
 
 # DETERMINE THE WINNER
+  ### rock beats scissors, paper beats rock and scissors beat paper
+  ### or same is a tie
 
+if user_choice == computer_choice:
+    print("Tie!")
+
+
+elif user_choice == "rock" and computer_choice == "paper":
+    print("Computer wins!")
+elif user_choice == "rock" and computer_choice == "scissors":
+    print("You win!")
+
+
+
+elif user_choice == "paper" and computer_choice == "rock":
+    print("You win!")
+elif user_choice == "paper" and computer_choice == "scissors":
+    print("Computer wins!")
+
+elif user_choice == "scissors" and computer_choice == "rock":
+    print("Computer wins!")
+elif user_choice == "scissors" and computer_choice == "paper":
+    print("You win!")
 
 
 # DISPLAY FINAL OUTPUTS / OUTCOMES
