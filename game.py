@@ -25,7 +25,22 @@ if user_choice not in ["rock", "paper", "scissors"]:
 
 # GENERATE COMPUTER SELECTION
 
-
 computer_choice = random.choice(["rock", "paper", "scissors"])
 
 print("------------------")
+print(" ")
+
+print("Generating...")
+
+print(" ")
+
+print("Computer chose:", computer_choice)
+
+print(" ")
+
+# DETERMINE THE WINNER
+
+
+
+# DISPLAY FINAL OUTPUTS / OUTCOMES
+
