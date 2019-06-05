@@ -8,6 +8,8 @@ import random
 
 print("Rock, Paper, Scissors, Shoot!")
 
+print(" ")
+
 # CAPTURE INPUTS
 
 user_choice = input("Please choose one of the following options: 'rock', 'paper' or 'scissors' (without the quotes)  ")
